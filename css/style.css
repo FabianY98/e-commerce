@@ -3,23 +3,20 @@ color: #000;
 }
 
  /* Anidacion de selectores en CSS */
-h1 span { 
-  color: #027bc0;
+.nombre-sitio span { 
+  color: #037bc0;
 }
 
-h2 span  {
-  color: green;
-}
+.navegacion {
 
-nav a {
+  background-color: gray;
+}
+.navegacion a{
   text-transform: uppercase;
 }
-
-.navegacion a {
-
-  text-transform: lowercase;
-}
-
-#navegacion a {
-  text-transform: capitalize;
+.enlace {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  color: #037bc0;
 }
