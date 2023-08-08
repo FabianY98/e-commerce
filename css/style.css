@@ -1,22 +1,21 @@
-h1 {
-color: #000;
-}
-
+ html {
+  box-sizing: border-box;
+ }
+ *,*:before, *:after {
+  box-sizing: inherit;
+ }
  /* Anidacion de selectores en CSS */
-.nombre-sitio span { 
+.nombre-sitio span {
   color: #037bc0;
 }
 
-.navegacion {
 
-  background-color: gray;
+/**Box Model */
+
+.sobre-nosotros {
+  background-color: red;
+  width: 200px;
+  padding: 25px;
+  box-sizing: border-box;
 }
-.navegacion a{
-  text-transform: uppercase;
-}
-.enlace {
-  text-transform: uppercase;
-  font-weight: bold;
-  text-decoration: none;
-  color: #037bc0;
-}
+
