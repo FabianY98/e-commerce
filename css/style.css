@@ -1,4 +1,20 @@
 h1 {
-  font-size: 20px;
-  color:cornflowerblue;
+color: #000;
+}
+
+ /* Anidacion de selectores en CSS */
+h1 span { 
+  color: #027bc0;
+}
+
+h2 span  {
+  color: green;
+}
+
+ footer a {
+  text-transform: uppercase;
+}
+
+a{
+  text-transform: lowercase;
 }
